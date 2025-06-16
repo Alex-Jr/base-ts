@@ -22,7 +22,8 @@
 	"name": "ts",
 	"scripts": {
 		"test": "vitest",
-		"lint:fix": "eslint . --fix"
+		"lint:fix": "eslint . --fix",
+		"tsc:check": "tsc --noEmit"
 	},
 	"version": "1.0.0"
 }
