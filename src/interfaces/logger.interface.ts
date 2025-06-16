@@ -6,4 +6,4 @@ export interface ILogger {
   warn(message: string, data: JSONValue): void;
 }
 
-export type LogLevel = 'error' | 'info' | 'warn';
+export type LogLevel = "error" | "info" | "warn";

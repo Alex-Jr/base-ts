@@ -1,4 +1,4 @@
-export type JSONValue = 
+export type JSONValue =
   | boolean
   | JSONValue[]
   | null
